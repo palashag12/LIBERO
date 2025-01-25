@@ -43,6 +43,7 @@ class ControlEnv:
         assert os.path.exists(
             bddl_file_name
         ), f"[error] {bddl_file_name} does not exist!"
+        
 
         controller_configs = suite.load_controller_config(default_controller=controller)
 

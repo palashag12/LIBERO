@@ -9,6 +9,6 @@ train:
   loss_scale: 1.0
 
 eval:
-  eval_every: 5
+  eval_every: 1
   n_epochs: 50
 
